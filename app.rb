@@ -14,7 +14,7 @@ get '/newteam' do
     @sf = params["sf"]
     @pf = params["pf"]
     @center = params["c"]
-
+    click_button = "Submit"
     erb :team
   end
 
