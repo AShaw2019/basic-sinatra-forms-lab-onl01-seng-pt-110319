@@ -17,5 +17,5 @@ get '/newteam' do
 
     erb :team
   end
-
+end
 end
