@@ -8,7 +8,6 @@ get '/newteam' do
 
   post '/team' do
     puts params
-   
     erb :team
   end
 
